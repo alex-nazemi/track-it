@@ -1,0 +1,38 @@
+body,
+html, 
+:root {
+    margin: 0;
+    padding: 0;
+    --main-bg-colour: #9ED5C5;
+    --main-text-colour: #EEE;
+    --main-font-family: 'Pacifico', cursive;
+}
+
+header {
+    margin: 0;
+    background-color: var(--main-bg-colour);
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    margin: 30px 0 30px 80px;
+    color: var(--main-text-colour);
+    font-family: var(--main-font-family);
+    font-size: 50px;
+}
+
+.add {
+    margin: 30px 80px 30px 0;
+    width: 80px;
+    height: 80px;
+    color: var(--main-text-colour);
+    font-size: 50px;
+    background-color: var(--main-bg-colour);
+    border: none;
+}
+
+main {
+    height: 100vh;
+    
+}
